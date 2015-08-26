@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
-
+ include ArticlesHelper
+ 
   def index
     @articles = Article.all
   end
@@ -23,5 +24,3 @@ class ArticlesController < ApplicationController
   end
 
 end
-
- include ArticlesHelper
