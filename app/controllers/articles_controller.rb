@@ -13,7 +13,7 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    
+    fail
   end
 
 end
