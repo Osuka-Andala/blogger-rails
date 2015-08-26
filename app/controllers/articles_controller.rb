@@ -12,4 +12,8 @@ class ArticlesController < ApplicationController
     @article = Article.new
   end
 
+  def create
+    
+  end
+
 end
