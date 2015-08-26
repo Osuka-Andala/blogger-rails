@@ -23,3 +23,5 @@ class ArticlesController < ApplicationController
   end
 
 end
+
+ include ArticlesHelper
