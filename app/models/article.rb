@@ -17,4 +17,8 @@ class Article < ActiveRecord::Base
    end.join(", ")
   end
 
+  def tag_list=(tags_string)
+
+  end
+
 end
