@@ -6,7 +6,7 @@ class Article < ActiveRecord::Base
 
   def tag_list
   tags.join(", ")
-  end
 
+  end
 
 end
